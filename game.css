@@ -1,0 +1,35 @@
+.field {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	background: lightgrey;
+	width: 500px;
+	height: 500px;
+}
+.cell {
+	background: lightgrey;
+	width: 50px;
+	height: 50px;
+}
+.snakeBody {
+	background: green;
+	border-radius: 50%;
+}
+.head {
+	background: green;
+	border-radius: 10%;
+}
+.mouse {
+	background: red;
+	border-radius: 100%;
+}
+.score {
+	display: block;
+	margin: auto;
+	margin-top: 15px;
+	font-size: 30px;
+	text-align: center;
+}
+.contr {
+	margin-left: 41%;
+}
